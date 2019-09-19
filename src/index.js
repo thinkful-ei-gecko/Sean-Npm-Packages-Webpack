@@ -1,4 +1,10 @@
 'use strict';
+import $ from 'jQuery';
+import './index.css';
+import api from './api';
+import store from './store';
+import shoppingList from './shopping-list';
+
 /* global shoppingList, store, api */
 
 $(document).ready(function() {

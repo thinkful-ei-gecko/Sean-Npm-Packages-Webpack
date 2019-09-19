@@ -1,6 +1,4 @@
-'use strict';
-// eslint-disable-next-line no-unused-vars
-const api = (function(){
+
   const BASE_URL = 'https://thinkful-list-api.herokuapp.com/rich';
 
   /**
@@ -78,10 +76,9 @@ const api = (function(){
     });
   };
 
-  return {
+  export default {
     getItems,
     createItem,
     updateItem,
     deleteItem,
   };
-}());
