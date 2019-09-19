@@ -1,8 +1,10 @@
 'use strict';
+
+import $ from 'jquery';
 /* global store, cuid */
 
 // eslint-disable-next-line no-unused-vars
-const shoppingList = (function(){
+export const shoppingList = (function(){
 
   function generateItemElement(item) {
     let itemTitle = `<span class="shopping-item shopping-item__checked">${item.name}</span>`;

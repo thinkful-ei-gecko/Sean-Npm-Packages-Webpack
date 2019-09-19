@@ -1,8 +1,11 @@
 'use strict';
+import $ from 'jquery';
+import shoppingList from './shopping-list'
+
 /* global shoppingList, cuid */
 
 // eslint-disable-next-line no-unused-vars
-const store = {
+export const store = {
   items: [
     { id: cuid(), name: 'apples', checked: false },
     { id: cuid(), name: 'oranges', checked: false },
